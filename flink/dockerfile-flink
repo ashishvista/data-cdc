@@ -1,0 +1,2 @@
+FROM flink:1.17.1-java11
+COPY ./flink-cdc-jars/* /opt/flink/lib/
